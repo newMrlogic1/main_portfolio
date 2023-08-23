@@ -34,7 +34,7 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              There's more to me other than frontend and fullstack
+              There`&apos`s more to me than frontend and fullstack web
               development...
             </motion.p>
           </div>

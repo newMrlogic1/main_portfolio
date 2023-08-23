@@ -1,6 +1,9 @@
 // import Image
 import Image from 'next/image';
 
+// import useRouter
+import { useRouter } from 'next/router';
+
 // data
 const workSlider = {
   slides: [
@@ -24,6 +27,79 @@ const workSlider = {
         },
       ],
     },
+
+    {
+      images: [
+        {
+          title: 'bank-app',
+          path: '/hoobank-1.png',
+          ref: 'https://woobank-app.netlify.app/',
+        },
+        {
+          title: 'bank-app',
+          path: '/hoobank-2.png',
+          ref: 'https://woobank-app.netlify.app/',
+        },
+        {
+          title: 'bank-app',
+          path: '/hoobank-3.png',
+          ref: 'https://woobank-app.netlify.app/',
+        },
+        {
+          title: 'bank-app',
+          path: '/hoobank-4.png',
+          ref: 'https://woobank-app.netlify.app/',
+        },
+      ],
+    },
+    // {
+    //   images: [
+    //     {
+    //       title: 'fine-dining',
+    //       path: '/fine-dining-1.png',
+    //       ref: 'https://main--nandis-kitchen.netlify.app/',
+    //     },
+    //     {
+    //       title: 'fine-dining',
+    //       path: '/fine-dining-2.png',
+    //       ref: 'https://main--nandis-kitchen.netlify.app/',
+    //     },
+    //     {
+    //       title: 'fine-dining',
+    //       path: '/fine-dining-3.png',
+    //       ref: 'https://main--nandis-kitchen.netlify.app/',
+    //     },
+    //     {
+    //       title: 'fine-dining',
+    //       path: '/fine-dining-1.png',
+    //       ref: 'https://main--nandis-kitchen.netlify.app/',
+    //     },
+    //   ],
+    // },
+    {
+      images: [
+        {
+          title: 'gpt-3',
+          path: '/gpt-1.png',
+          ref: 'https://main--best-of-gpt3.netlify.app/',
+        },
+        {
+          title: 'gpt-3',
+          path: '/gpt-2.png',
+          ref: 'https://main--best-of-gpt3.netlify.app/',
+        },
+        {
+          title: 'gpt-3',
+          path: '/gpt-3.png',
+          ref: 'https://main--best-of-gpt3.netlify.app/',
+        },
+        {
+          title: 'gpt-3',
+          path: '/gpt-1.png',
+          ref: 'https://main--best-of-gpt3.netlify.app/',
+        },
+      ],
+    },
     {
       images: [
         {
@@ -44,6 +120,46 @@ const workSlider = {
         },
       ],
     },
+    // {
+    //   images: [
+    //     {
+    //       title: 'admin-panel',
+    //       path: '/admin-panel-1.png',
+    //     },
+    //     {
+    //       title: 'admin-panel',
+    //       path: '/admin-panel-2.png',
+    //     },
+    //     {
+    //       title: 'admin-panel',
+    //       path: '/admin-panel-3.png',
+    //     },
+    //     {
+    //       title: 'admin-panel',
+    //       path: '/admin-panel-4.png',
+    //     },
+    //   ],
+    // },
+    // {
+    //   images: [
+    //     {
+    //       title: 'sociopedia',
+    //       path: '/sociopedia-1.JPG',
+    //     },
+    //     {
+    //       title: 'sociopedia',
+    //       path: '/sociopedia-2.JPG',
+    //     },
+    //     {
+    //       title: 'sociopedia',
+    //       path: '/sociopedia-3.JPG',
+    //     },
+    //     {
+    //       title: 'sociopedia',
+    //       path: '/sociopedia-4.JPG',
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -62,6 +178,7 @@ import { FreeMode, Pagination } from 'swiper';
 import { BsArrowRight } from 'react-icons/bs';
 
 const WorkSlider = () => {
+  const router = useRouter();
   return (
     <Swiper
       spaceBetween={10}
@@ -83,6 +200,7 @@ const WorkSlider = () => {
                     key={index}
                   >
                     <div
+                      // onClick={() => router.push(image.ref)}
                       className="flex items-center justify-center relative 
                     overflow-hidden group"
                     >

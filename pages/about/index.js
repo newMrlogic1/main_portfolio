@@ -133,8 +133,8 @@ const About = () => {
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-0 
           px-2 xl:px-0"
           >
-            Collaborated on digital products for businesses and consumer use, as
-            well as guided students in their journey into web development.
+            Never commit to something you wouldn&apost give your best efforts.
+            Every project is handled as though its the only project there is.
           </motion.p>
           {/* counters */}
           <motion.div

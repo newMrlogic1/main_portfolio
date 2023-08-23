@@ -34,10 +34,8 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] text-lg mx-auto lg:mx-2"
             >
-              For years, I've either worked on or collaborated on diverse
-              projects, from open-source to complex fullstack web apps for
-              clients from diverse backgrounds. And I'll be delighted to help
-              actualize your Devops ideas.
+              You&aposre welcome to explore some live projects I&aposve worked
+              on...
             </motion.p>
           </div>
           <motion.div
