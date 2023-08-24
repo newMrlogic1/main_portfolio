@@ -56,10 +56,12 @@ const Home = () => {
               className="max-w-sm xl:max-w-xl mx-auto xl:mx-0
           mb-10 xl:mb-16"
             >
-              Building websites since 2009 has led to me working with clients of
-              diverse backgrounds. <br />
+              More than three years working with clients from diverse
+              backgrounds. <br />
+              <br />
               <span className="text-[1.2em]">
-                The joy of each satisfied client makes it worth every effort.
+                Every project is handled with dedication like it<div>{"'"}</div>
+                s the only one.
               </span>
             </motion.p>
             {/* btn */}

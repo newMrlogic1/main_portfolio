@@ -59,19 +59,15 @@ const aboutData = [
     info: [
       {
         title: 'Freelance Fullstack Web Developer',
-        stage: 'Since 2021',
+        stage: 'Since 2020',
       },
       {
         title: 'Freelance Frontend Developer',
         stage: '2018 -',
       },
       {
-        title: 'UX/UI Designer - AkWill Nigeria Ltd',
+        title: 'Static Website Builder - AkWill Nigeria Ltd',
         stage: '2013 - 2017',
-      },
-      {
-        title: 'Online Dynamix Nigeria',
-        stage: '2009 - 2011',
       },
     ],
   },
@@ -83,7 +79,8 @@ const aboutData = [
         stage: '2023',
       },
       {
-        title: 'Certified Web Developer - Online Dynamix Academy ',
+        title:
+          'Certified Web Developer (HTML, CSS, PHP, MySQL) - Online Dynamix Academy ',
         stage: '2009',
       },
     ],
@@ -133,8 +130,9 @@ const About = () => {
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-0 
           px-2 xl:px-0"
           >
-            Never commit to something you wouldn&apost give your best efforts.
-            Every project is handled as though its the only project there is.
+            Never commit to a task you wouldn<div>{"'"}</div>t give your best
+            efforts.
+            <br /> Passion, Dedication and Integrity.
           </motion.p>
           {/* counters */}
           <motion.div
@@ -153,7 +151,7 @@ const About = () => {
               after:right-0"
                 >
                   <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                    <Countup start={0} end={10} duration={7} /> +
+                    <Countup start={0} end={3} duration={3} /> +
                   </div>
                   <div
                     className="text-xs uppercase tracking-[1px] leading-[1.4]
@@ -171,7 +169,7 @@ const About = () => {
               after:right-0"
                 >
                   <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                    <Countup start={0} end={7} duration={10} /> +
+                    <Countup start={0} end={4} duration={3} /> +
                   </div>
                   <div
                     className="text-xs uppercase tracking-[1px] leading-[1.4]
@@ -189,7 +187,7 @@ const About = () => {
               after:right-0"
                 >
                   <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                    <Countup start={0} end={115} duration={8} /> +
+                    <Countup start={0} end={47} duration={8} /> +
                   </div>
                   <div
                     className="text-xs uppercase tracking-[1px] leading-[1.4]
@@ -207,7 +205,7 @@ const About = () => {
               after:right-0"
                 >
                   <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                    <Countup start={0} end={35} duration={5} /> +
+                    <Countup start={0} end={11} duration={5} /> +
                   </div>
                   <div
                     className="text-xs uppercase tracking-[1px] leading-[1.4]

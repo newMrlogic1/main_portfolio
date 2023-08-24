@@ -53,7 +53,7 @@ const Contact = () => {
                 className="group-hover:-translate-y-[120%]
               group-hover:opacity-0 transition-all duration-500"
               >
-                Let&aposs talk
+                Let<div>{"'"}</div>s talk
               </span>
               <BsArrowRight
                 className="-translate-y-[120%] opacity-0 group-hover:flex
